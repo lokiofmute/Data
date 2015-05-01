@@ -1,0 +1,328 @@
+* {
+  box-sizing  : border-box;
+  -moz-box-sizing:border-box;
+}
+
+body {
+  font-family : "Segoe UI";
+}
+
+/** Scrollbars **/
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.pimContext {
+  padding-left : 25px;
+  padding-right : 25px;
+  width        : 100%;
+  height       : 24px;
+  line-height  : 24px;
+  font-size    : 12px;
+  background-color : white;
+  color : black;
+  cursor : default;
+}
+.pimContext:hover {
+  color : white;
+  background-color : #4281f4;  
+}
+
+.pimCheck {
+  text-align       : Left;
+  font-size        : 110%;
+  background-color : #AAAAAA; 
+  background-color : #444444;
+  color            : rgb(213,213,213); 
+  padding          : 0px 10px 0px 10px;
+  cursor           : default;
+//  min-height       : 40px;
+//  line-height      : 40px;
+  -webkit-user-select : none;
+  -khtml-user-select  : none;
+  -moz-user-select    : none;
+  -ms-user-select     : none;
+  user-select         : none;
+}
+
+/** Basic element - Button **/
+
+.pimButton {
+  text-align       : Left;
+  font-size        : 110%;
+  background-color : #AAAAAA; 
+  background-color : #444444;
+  color            : rgb(213,213,213); 
+  padding          : 0px 10px 0px 10px;
+  cursor           : default;
+//  min-height       : 40px;
+//  line-height      : 40px;
+  -webkit-user-select : none;
+  -khtml-user-select  : none;
+  -moz-user-select    : none;
+  -ms-user-select     : none;
+  user-select         : none;
+}
+
+.pimButton:hover {
+  background-color : #DDDDDD;
+  color : #444444;
+  outline : 1px solid rgba(0,0,0,0.2);
+}
+
+.pimHGroup > .pimButton:hover {
+  background-color : #DDDDDD;
+  outline : 2px solid rgba(0,0,0,0.2);
+}
+
+.pimButton:active, .pimHGroup > .pimButton:active {
+  background-color : #FF8800;
+  outline : 0px;
+}
+
+/** Basic element - label **/
+
+.pimLabel {
+  padding             : 0px 10px 0px 10px;
+  cursor              : default;
+  -webkit-user-select : none;
+  -khtml-user-select  : none;
+  -moz-user-select    : none;
+  -ms-user-select     : none;
+  user-select         : none;
+  font-size           : 90%;
+  white-space         : nowrap;
+}
+
+.pimSliderThumb {
+  border           :1px solid rgba(40,40,40,1);
+  background-color : rgba(255,255,255,0.3);
+  min-height       : 16px;
+  max-height       : 16px;
+  max-width        : 16px;
+  min-width        : 16px;
+  border-radius    : 8px;
+  position         : relative;
+  top              : 0px;
+  left             : 0px;
+  color            : black;
+  cursor           : pointer;
+}
+
+.pimSlider {
+  background-color    : #444444;
+  position            : relative;
+  -webkit-user-select : none;
+  -khtml-user-select  : none;
+  -moz-user-select    : none;
+  -ms-user-select     : none;
+  user-select         : none;
+  font-size           : 14px;
+  min-height          : 18px;
+  max-height          : 18px;
+  padding-right       : 16px;
+  line-height         : 16px;
+  text-align          : center;
+  white-space         : nowrap;
+  position            : relative;
+  color               : #999;
+  cursor : pointer;
+}
+
+/** Basic element - Combo **/
+
+.pimCombo {
+  display          : block;
+  width            : 100%;
+  background-color : #EEEEEE; 
+  padding          : 0px;
+  min-height       : 20px;
+}
+.pimCombo:hover {
+  background-color : #DDDDDD; 
+}
+
+/** Basic element - Edit **/
+
+.pimEdit {
+  display          : block;
+  width            : 100%;
+  outline          : 0px;
+  padding          : 0px;
+  padding-left     : 5px;
+  min-height       : 20px;
+  background-color : #EEEEEE; 
+}
+
+/** Grouping (default = vertical) **/
+
+*:not(.pimHGroup) > .pimGroup  {
+  background-color : #AAAAAA; 
+  margin-top    : 10px;
+  margin-bottom : 5px;
+  border-radius : 6px;
+}
+
+*:not(.pimHGroup) > .pimGroup > * {
+  margin        : 0px;
+  border           : 1px solid rgb(31,31,31);
+}
+
+*:not(.pimHGroup) > .pimGroup > *:not(:first-child) {
+  border-top    : 0px;
+  margin : 0px;
+}
+
+*:not(.pimHGroup) > .pimGroup > *:first-child {
+  border-top-left-radius  : 6px;
+  border-top-right-radius : 6px;
+}
+
+*:not(.pimHGroup) > .pimGroup > *:last-child {
+  border-bottom-left-radius  : 6px;
+  border-bottom-right-radius : 6px;
+}
+
+/** tabs **/
+
+.pimTab {
+  background-color: #EEEEEE;
+  padding-left:4px;
+}
+
+/** Grouping horizontal group **/
+
+.pimHGroup {
+  width            : 100%;
+  background-color : inherit;
+}
+
+.pimSelectable:hover {
+  background-color : #BBBBBB;
+}
+
+.pimSelected {
+  background-color : #FF8800;
+  color : white;
+}
+
+.pimSelected:hover {
+  background-color : #FFAA22;
+  color : white;
+}
+
+.pimHGroup > * {
+  margin           : 0px;
+  border           : 0px;
+  border-radius    : inherit;
+  display          : inline-block;
+  white-space      : nowrap;
+  height           : inherit;
+}
+
+.pimHGroup > *:not(:first-child) {
+  border-top-left-radius  : 0px;
+  border-bottom-left-radius  : 0px;
+}
+
+.pimHGroup > *:not(:last-child) {
+  border-right      : 1px solid rgb(31,31,31);
+  border-top-right-radius   : 0px;
+  border-bottom-right-radius   : 0px;
+}
+
+/* CSS3 icons */
+.icon-rarr {
+  display: inline-block;
+  border:5px solid transparent;
+  border-left-color:#c55500;
+  cursor:pointer;
+  margin-right:4px;
+}
+.icon-rarrd {
+  display: inline-block;
+  border:5px solid transparent;
+  border-left-color:#AAAAAA;
+  cursor:default;
+  margin-right:4px;
+}
+.icon-darr {
+  display: inline-block;
+  border:5px solid transparent;
+  border-width:5px 4px;
+  margin-bottom:-4px;
+  margin-right:6px;
+  margin-left:-2px;
+  border-top-color:#c55500;
+  cursor:pointer;
+}
+
+.icon-clap {
+        display:block;
+	width: 2em;
+	height: 0.5em;
+	position: relative;
+	border-top: 0.1em solid #2c2c2c;
+	border-right: 0.1em solid #2c2c2c;
+	border-bottom: 0.8em solid #2c2c2c;
+	border-left: 0.1em solid #2c2c2c;
+	margin:0.8em 0 0 -0.5em;
+}
+
+.icon-clap:before {
+	content: '';
+	display: block;
+	width: 2.2em;
+	height: 0.2em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: -0.6em 0 0 -0.14em;
+
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	border-top: 0.1em solid #2c2c2c;
+	background-color: #2c2c2c;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-image: -ms-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+.icon-clap:after {
+	content: '';
+	width: 0.2em;
+	height: 0.2em;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #2c2c2c;
+	border-radius: 0.2em;
+	margin: -0.2em 0 0 -0.2em;
+}
+
+/** Table **/
+
+.pimTableHeader {
+  background-color : #444444;
+  color            : white;
+}
+
+
