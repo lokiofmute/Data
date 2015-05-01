@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 3823306464
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fd9396d392906abf630c22cd89c55cde
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4fd6061590f658104038d4f596ddb3a1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 55260b1d3ef54524c906fd88934c1d30, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Models/Customization/FaceWear/Materials/ClownNose.mat
+- Assets/Textures/Customization/FaceWear/ClownNose.tga
+- Assets/Models/Customization/FaceWear/Materials/MoustacheRed.mat
+- Assets/Models/Customization/FaceWear/ClownNose.FBX
+- Assets/Resources/Facewear/AvatarClownNose.prefab
+Dependencies:
+- AssetBundles/Android/generic
+- AssetBundles/Android/moustache

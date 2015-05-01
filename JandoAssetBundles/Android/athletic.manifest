@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3397645572
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e6a1b073432d154a7f89a6059c189bd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e3d1bbda6b47c8af72022fe7ef4d8576
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Textures/Customization/Outfits/Athletic04.tga
+- Assets/Resources/Bodywear/AvatarBodyAthletic05.mat
+- Assets/Resources/Bodywear/AvatarBodyAthletic03.mat
+- Assets/Resources/Bodywear/AvatarBodyAthletic07.mat
+- Assets/Textures/Customization/Outfits/Athletic02.tga
+- Assets/Resources/Bodywear/AvatarBodyAthletic01.mat
+- Assets/Resources/Bodywear/AvatarBodyAthletic04.mat
+- Assets/Resources/Bodywear/AvatarBodyAthletic06.mat
+- Assets/Textures/Customization/Outfits/Athletic06.tga
+- Assets/Textures/Customization/Outfits/Athletic03.tga
+- Assets/Resources/Bodywear/AvatarBodyAthletic02.mat
+- Assets/Textures/Customization/Outfits/Athletic07.tga
+- Assets/Textures/Customization/Outfits/Athletic05.tga
+- Assets/Textures/Customization/Outfits/Athletic01.tga
+Dependencies:
+- AssetBundles/Android/generic
