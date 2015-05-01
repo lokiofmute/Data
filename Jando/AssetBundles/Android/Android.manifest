@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: viking.unity3d
+      Dependencies:
+        Dependency_0: textures.unity3d
+        Dependency_1: shaders.unity3d
+    Info_1:
+      Name: textures.unity3d
+      Dependencies: {}
+    Info_2:
+      Name: shaders.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: clown.unity3d
+      Dependencies:
+        Dependency_0: textures.unity3d
+        Dependency_1: shaders.unity3d
+    Info_4:
+      Name: pirate.unity3d
+      Dependencies:
+        Dependency_0: shaders.unity3d
+    Info_5:
+      Name: moustaches.unity3d
+      Dependencies:
+        Dependency_0: textures.unity3d
+        Dependency_1: shaders.unity3d
+    Info_6:
+      Name: aviators.unity3d
+      Dependencies:
+        Dependency_0: shaders.unity3d

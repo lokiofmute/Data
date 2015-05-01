@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 3530900192
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3d4b3d43ee9511f644132e18d77e8464
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fc3fc1ea761bd654aceef6a7b8932ff8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 55260b1d3ef54524c906fd88934c1d30, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Models/Customization/FaceWear/VikingBeard.FBX
+- Assets/Models/Customization/FaceWear/Materials/VikingBeardBlond.mat
+- Assets/Resources/Facewear/AvatarBeardViking.prefab
+- Assets/Textures/Customization/FaceWear/VikingBeard.tga
+Dependencies:
+- AssetBundles/Android/textures.unity3d
+- AssetBundles/Android/shaders.unity3d

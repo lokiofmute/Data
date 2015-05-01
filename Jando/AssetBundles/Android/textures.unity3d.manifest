@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 269847277
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2462d3627c18909de54c3c173c25011f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0fd99c5e9ad8f0f80da6ba03142e9c82
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/ThirdParty/Toon Shading/Sources/Textures/toon ramp.png
+Dependencies: []

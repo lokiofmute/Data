@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2180864531
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 79223d807a13f5792d17b095bf5f157b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c1089fea0bc7521f04d7ee9836950478
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Shaders/AlphaColor.shader
+- Assets/ThirdParty/Toon Shading/Sources/Shaders/Toony-Lighted.shader
+Dependencies: []
